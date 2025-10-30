@@ -61,7 +61,7 @@ This builds three executables:
 
 Options:
 
-- `--backend=cutensor|dense|cutlass-grouped|cutlass-single|all`
+- `--backend=tblis-dense|tblis-blocksparse|all`
   - `tblis-blocksparse` – tblis block-sparse contraction
   - `tblis-dense` – dense tblis (uses packed dense buffers)
   - `all` – run all backends sequentially; combines timings and optionally
