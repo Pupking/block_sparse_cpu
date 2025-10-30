@@ -103,7 +103,6 @@ void print_usage(const char *program_name) {
   std::cout << std::endl;
   std::cout << "Options:" << std::endl;
   std::cout << "  --backend=tblis-dense|tblis-blocksparse" << std::endl;
-  //  std::cout << "  --backend=cutensor|dense|cutlass-grouped|cutlass-single|tblis|all" << std::endl;
   std::cout << "  --dtype=f32|f64    Numeric type (default f32)" << std::endl;
   std::cout << "  --verify           Compare results to references" << std::endl;
 }
